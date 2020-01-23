@@ -30,7 +30,7 @@ void draw() {
     File[] listOfFiles = f.listFiles();
     String[] fileNames = new String [listOfFiles.length];
     textSize(12);
-    text("select a file:", 10, 0);
+    text("select a file:", 0, 10);
     text("Press w to speed up, s to slow down, and space to pause", 100, 200);
     text("Press a to go back 10 words", 170, 230);
     for (int i = 0; i < listOfFiles.length; i++) {
